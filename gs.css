@@ -27,3 +27,28 @@
     font-style: italic;
     color: deeppink;
 }
+.MAR{
+    font-family: monospace;
+    color:darkblue;
+    background-color: mediumaquamarine;
+}
+.MAR:hover{
+    text-shadow: 3px 4px 5px chartreuse;
+}
+.ALL:hover{
+    text-shadow: 4px 5px 6px cornflowerblue;
+}
+.Table{
+    border: solid greenyellow 7px;
+    margin: 3%;
+    background-color: black;
+    color: crimson;
+    padding: 1%;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+tr,th,td{
+    border: solid 4px blue;
+    margin: 1px 1px;
+}
