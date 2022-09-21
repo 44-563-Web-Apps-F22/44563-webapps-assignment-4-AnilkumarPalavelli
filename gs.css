@@ -1,0 +1,29 @@
+.speech{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:10px;
+    color: black;
+    text-indent: 15px;
+}
+.song{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+    text-indent: 20px;
+
+}
+.direction{
+    font-style: oblique;
+    font-size: 10px;
+    color: black;
+    background-color: cyan;
+}
+.direction.hover{
+    color: chartreuse;
+    background-color: darkorange;
+}
+.ALL{
+    font-style: italic;
+    color: deeppink;
+}
