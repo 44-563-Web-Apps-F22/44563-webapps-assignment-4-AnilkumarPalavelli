@@ -86,8 +86,8 @@ a{
     border: 6px;
 }
 .navbar-horizontal{
-    list-style-type: circle;
-    background-color:aliceblue;
+    list-style-type: none;
+    background-color:aquamarine;
     padding: 30px;
 }
 li a,i{
