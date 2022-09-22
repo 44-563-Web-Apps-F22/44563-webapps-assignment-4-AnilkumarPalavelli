@@ -40,18 +40,23 @@
 }
 .GIU:hover{
     text-shadow: 2px 3px 4px darkorchid;
+    border: 3px dashed chocolate;
 }
 .MAR:hover{
     text-shadow: 3px 4px 5px dodgerblue;
+    border: 3px dashed chocolate;
 }
 .ALL:hover{
     text-shadow: 4px 5px 6px cornflowerblue;
+    border: 3px dashed chocolate;
+    
 }
 .Table{
-    border: solid darkred 7px;
+    border: solid darkred 4px;
+    border-collapse:collapse ;
     margin: 3%;
     background-color: black;
-    color: darkorange;
+    color:deeppink;
     padding: 1%;
     border-spacing: 2px;
     text-align: center;
@@ -60,4 +65,33 @@
 tr,th,td{
     border: solid 4px blue;
     margin: 1px 1px;
+    padding: 10px;
 }
+th{
+    font-size: medium;
+    font-weight: bolder;
+}
+td{
+    font-size: medium;
+}
+tr:nth-child(even){
+    background-color: mintcream;
+    background-color:aliceblue ;
+}
+tr:nth-child(odd){
+    background-color: chartreuse;
+    background-color: darkgreen;
+}
+a{
+    border: 6px;
+}
+.navbar-horizontal{
+    list-style-type: circle;
+    background-color:aliceblue;
+    padding: 30px;
+}
+li a,i{
+    float: left;
+    padding: 5px;
+}
+
